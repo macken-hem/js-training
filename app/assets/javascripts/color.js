@@ -1,5 +1,5 @@
 $(function(){
-  $(".left_hover_content").hover(
+  $("left_hover_content").hover(
     $(function(){
       $(".left_hover_text").fadeIn(1000);
     },
@@ -9,3 +9,8 @@ $(function(){
   );
 
 });
+
+
+$(function() {
+  $(".left_hover_text").css("color", "green");
+ });
