@@ -17,4 +17,22 @@ $(function(){
       $('.midleft_hover_text').fadeOut();
     }
   )
+
+  $('.midright_hover_content').hover(
+    function(){
+      $('.midright_hover_text').fadeIn();
+    },
+    function(){
+      $('.midright_hover_text').fadeOut();
+    }
+  )
+
+  $('.right_hover_content').hover(
+    function(){
+      $('.right_hover_text').fadeIn();
+    },
+    function(){
+      $('.right_hover_text').fadeOut();
+    }
+  )
 });
