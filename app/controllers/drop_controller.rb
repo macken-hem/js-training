@@ -1,6 +1,8 @@
 class DropController < ApplicationController
   def index
+    @image = Image.new
   end
+
 
   def create
     @image = Image.new(file_name: params[:file])
