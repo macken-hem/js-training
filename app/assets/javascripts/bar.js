@@ -13,7 +13,7 @@ $(function() {
   Dropzone.autoDiscover = false;
 
   $(".dropzone").dropzone({
-    maxFilesize: 1,
+    maxFilesize: 6,
     addRemoveLinks: true
   });
 });
