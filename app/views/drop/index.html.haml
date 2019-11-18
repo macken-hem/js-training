@@ -1,6 +1,6 @@
 %h1 My Images
 %div
-= form_for(@image, url:'/mypage', metho: :create,class: "dropzone") do |f|
+= form_for(@image, url:'/mypage', metho: :create, class: "dropzone") do |f|
   .fallback
   =  f.file_field :file_name, multiple: true
 -# <%= form_for(Image.new, html: {multipart: true, class: "dropzone"}) do |f|  %>
