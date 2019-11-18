@@ -65,3 +65,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "jquery-rails"
 gem 'jquery-ui-rails'
 gem "haml-rails", "~> 2.0"
+gem "dropzonejs-rails"
+gem "carrierwave"
