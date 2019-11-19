@@ -7,13 +7,3 @@ $(function(){
   });
 
 });
-
-$(function() {
-  // disable auto discover
-  Dropzone.autoDiscover = false;
-
-  $(".dropzone").dropzone({
-    maxFilesize: 6,
-    addRemoveLinks: true
-  });
-});
