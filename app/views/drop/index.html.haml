@@ -2,9 +2,4 @@
 = form_for(@image, url:'/mypage', metho: :create) do |f|
   .fallback
   =  f.file_field :file_name, multiple: true, class: "dropzone", id: 'upload-dropzone'
--# <%= form_for(Image.new, html: {multipart: true, class: "dropzone"}) do |f|  %>
--#   <div class="fallback">
--#     <%= f.file_field :file_name, multiple: true %>
--#   </div>
--# <% end %>
 
